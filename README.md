@@ -1,11 +1,11 @@
-# 📚 Mentoring Feature — Automation Testing Documentation
+# Mentoring Feature — Automation Testing Documentation
 
-## 🌟 Objective  
+## Objective  
 To ensure that the **Mentoring feature** added to the **Deals Platform** can run well, safely, stably, and in accordance with business and user needs.
 
 ---
 
-## 🧪 Types of Testing  
+## Types of Testing  
 
 | Type               | Purpose                                                                 |
 |:------------------|:------------------------------------------------------------------------|
@@ -20,7 +20,7 @@ To ensure that the **Mentoring feature** added to the **Deals Platform** can run
 
 ---
 
-## 🔍 Key Areas of Focus  
+## Key Areas of Focus  
 
 - Mentor & Mentee Registration & Login  
 - Mentor & Mentee Login  
@@ -32,7 +32,7 @@ To ensure that the **Mentoring feature** added to the **Deals Platform** can run
 
 ---
 
-## 🌐 Environments  
+## Environments  
 
 | Environment | Purpose                                         |
 |:------------|:------------------------------------------------|
@@ -42,47 +42,45 @@ To ensure that the **Mentoring feature** added to the **Deals Platform** can run
 
 ---
 
-## 📌 Assumptions  
+## Assumptions  
 
 - Mentoring feature is for **logged-in mentees only**.  
 - User must be logged in to **book a mentor**.  
 
 ---
 
-## ✅ High-Level Test Scenarios  
+## High-Level Test Scenarios  
 
-### 📌 Register  
+### Register  
 - Register new user as **Jobseeker/Mentee** via email or Google  
 - Register new user as **Mentor** via email or Google  
 - Register new user as **Employer** via email or Google  
 
-### 📌 Login  
+### Login  
 - Login with email or Google  
 - Forgot password flow  
 
-### 📌 Search & Filter  
+### Search & Filter  
 - Search by **name**, **company**, **role**, **industry**, **university**, **major**, and **topic**  
 - Filter by **level**, **most relevant**, **nearby availability**, or **latest**  
 
-### 📌 Select Mentor  
+### Select Mentor  
 - View mentor profiles  
 - View mentor reviews  
 
-### 📌 Booking Mentor  
+### Booking Mentor  
 - Book a session with available time slots  
 - Book multiple sessions  
 - Reschedule a session  
 - Cancel a booking  
 
-### 📌 Notifications  
+### Notifications  
 - Receive booking confirmation  
 - Receive reminders  
 - Reschedule & cancel notifications  
 
-### 📌 Feedback and Ratings  
+### Feedback and Ratings  
 - Mentee rates mentor after session  
 - Leave feedback comments  
 - View average mentor rating  
 - Get and download certificate  
-
----
