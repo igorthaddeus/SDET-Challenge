@@ -37,32 +37,32 @@ To ensure that the **Mentoring feature** added to the **Deals Platform** can run
 | Environment | Purpose                                         |
 |:------------|:------------------------------------------------|
 | **Development** | Early bug finding and quick feedback |
-| **Staging**     | Full end-to-end, regression, and performance testing |
+| **Staging**     | Regression, and performance testing |
 | **Production**  | Basic sanity checks after deployment |
 
 ---
 
 ## Assumptions  
 
-- Mentoring feature is for **logged-in mentees only**.  
-- User must be logged in to **book a mentor**.  
+- Mentoring feature is for logged-in mentees only.  
+- User must be logged in to book a mentor.  
 
 ---
 
 ## High-Level Test Scenarios  
 
 ### Register  
-- Register new user as **Jobseeker/Mentee** via email or Google  
-- Register new user as **Mentor** via email or Google  
-- Register new user as **Employer** via email or Google  
+- Register new user as Jobseeker/Mentee via email or Google  
+- Register new user as Mentor via email or Google  
+- Register new user as Employer via email or Google  
 
 ### Login  
 - Login with email or Google  
 - Forgot password flow  
 
 ### Search & Filter  
-- Search by **name**, **company**, **role**, **industry**, **university**, **major**, and **topic**  
-- Filter by **level**, **most relevant**, **nearby availability**, or **latest**  
+- Search by name, company, role, industry, university, major, and topic  
+- Filter by level, most relevant, nearby availability, or latest 
 
 ### Select Mentor  
 - View mentor profiles  
